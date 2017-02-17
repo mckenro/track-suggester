@@ -1,3 +1,60 @@
+body {
+  background: #00b3b4;
+  color: #e5f8ff;
+}
+
+h1 {
+  color:#7AFEFF;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+.logo {
+  width: 180px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
 h5 {
   margin-top: 20px;
+}
+
+#cssDesign {
+  display: none;
+}
+
+#cSharp {
+  display: none;
+}
+
+#phpDrupal {
+  display: none;
+}
+
+#javaAndroid {
+  display: none;
+}
+
+#rubyRails {
+  display: none;
+}
+
+#moreInfo {
+  display: none;
+}
+
+#resultField {
+  height: 200px;
 }

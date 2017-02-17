@@ -2,13 +2,16 @@
 <html>
   <head>
     <script src="js/jquery-3.1.1.js"></script>
-    <script = src"js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
     <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link href="css/styles.css" type="text/css" rel="stylesheet">
     <title>Epicodus Track Suggester</title>
   </head>
   <body>
     <div class="container">
+      <div class="logo">
+        <img src="img/epicodus_logo_v2.png">
+      </div>
       <h1>Epicodus Track Suggester Quiz</h1>
       <h3>Take the quiz below to receive a suggestion for which Epicodus coding track is best for you.</h3>
 
@@ -68,7 +71,7 @@
           </div>
         </div><!--close techType-->
 
-        <div id="frontBack">
+        <div id="coType">
           <h5>Is your ideal job at a large "enterprise" company or a smaller stratup?</h5>
           <div class="radio">
             <label>
@@ -82,7 +85,7 @@
               Startup
             </label>
           </div>
-        </div><!--close frontBack-->
+        </div><!--close coType-->
 
         <div id="coSpecific">
           <h5>What would be the best tech company to work for?</h5>
@@ -120,6 +123,37 @@
 
         <button type="submit" class="btn btn-primary">Get Track!</button>
       </form>
+
+      <div id="resultField">
+        <div id="cssDesign">
+          <h1>Your ideal Epicodus track is:</h1>
+          <h3>The CSS/Design Track!</h3>
+        </div>
+        <div id="cSharp">
+          <h1>Your ideal Epicodus track is:</h1>
+          <h3>The C# Track!</h3>
+        </div>
+        <div id="javaAndroid">
+          <h1>Your ideal Epicodus track is:</h1>
+          <h3>The Java/Android Track!</h3>
+        </div>
+        <div id="phpDrupal">
+          <h1>Your ideal Epicodus track is:</h1>
+          <h3>The Java/Android Track!</h3>
+        </div>
+        <div id="rubyRails">
+          <h1>Your ideal Epicodus track is:</h1>
+          <h3>The Ruby/Rails Track!</h3>
+        </div>
+        <div id="moreInfo">
+          <h1>Hmmm, looks like you may need more info...</h1>
+          <h5>Check out these links, then try the quiz again.</h5>
+          <a href="#">Which programming language should I study</a>
+          <a href="#">Which programming language should I study</a>
+          <a href="#">Which programming language should I study</a>
+          <a href="#">Which programming language should I study</a>
+        </div>
+      </div><!--close resultField-->
 
       <div id="resultField">
       </div>
