@@ -1,5 +1,31 @@
 $(document).ready(function() {
 
+  $("button#userName").click(function() {
+    $("#frontBack").show();
+    $("#userName").hide();
+  });
+
+  $("button#frontBackButton").click(function() {
+    $("#appType").show();
+    $("#frontBack").hide();
+  });
+  $("button#appTypeButton").click(function() {
+    $("#techType").show();
+    $("#appType").hide();
+  });
+  $("button#techTypeButton").click(function() {
+    $("#coType").show();
+    $("#techType").hide();
+  });
+  $("button#coTypeButton").click(function() {
+    $("#coSpecific").show();
+    $("#coType").hide();
+  });
+  $("button#coSpecificButton").click(function() {
+    $("#submit").show();
+    $("#coSpecific").hide();
+  });
+
   $("form#suggesterQuiz").submit(function(event) {
     event.preventDefault();
     var userNameInput = $("input#userName").val();
@@ -9,9 +35,7 @@ $(document).ready(function() {
     var coTypeInput = $("input:radio[name=coType]:checked").val();
     var coSpecificInput = $("input:radio[name=coSpecific]:checked").val();
 
-    if (!userNameInput || !frontBackInput || !appTypeInput || !techTypeInput || !coTypeInput || !coSpecificInput){
-      alert("Please choose an answer for all questions!");
-    }else if ((frontBackInput === "1" && coSpecificInput === "4") || (frontBackInput === "1" && coSpecificInput === "5")) {
+    if ((frontBackInput === "1" && coSpecificInput === "4") || (frontBackInput === "1" && coSpecificInput === "5")) {
       $("#cssDesign").show();
     }else if ((frontBackInput === "2" && appTypeInput === "2") || (frontBackInput === "2" && techTypeInput === "1") || (frontBackInput === "2" && coSpecificInput === "5")) {
       $("#rubyRails").show();
@@ -25,3 +49,8 @@ $(document).ready(function() {
 
   });
 });
+
+
+/*else if (!userNameInput || !frontBackInput || !appTypeInput || !techTypeInput || !coTypeInput || !coSpecificInput){
+  alert("Please choose an answer for all questions!");
+}*/

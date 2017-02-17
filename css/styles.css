@@ -7,6 +7,24 @@ h1 {
   color:#7AFEFF;
 }
 
+h3 {
+  margin-bottom: 60px;
+}
+
+.btn-primary {
+  margin-top: 14px;
+  background-color: #fa59ff;
+  border-color: #e549ed;
+}
+
+.btn-primary:hover {
+  background-color: #c512cc;
+}
+
+.btn-primary:active {
+  background-color: #c512cc;
+}
+
 .container {
   max-width: 800px;
   text-align: center;
@@ -18,9 +36,10 @@ form {
 
 .logo {
   width: 180px;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .logo img {
@@ -57,4 +76,28 @@ h5 {
 
 #resultField {
   height: 200px;
+}
+
+#frontBack {
+  display: none;
+}
+
+#appType {
+  display: none;
+}
+
+#techType {
+  display: none;
+}
+
+#coType {
+  display: none;
+}
+
+#coSpecific {
+  display: none;
+}
+
+#submit {
+  display: none;
 }
