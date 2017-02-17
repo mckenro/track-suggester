@@ -46,10 +46,10 @@ form {
   width: 100%;
 }
 
-h5 {
+h4 {
   margin-top: 20px;
 }
-
+/*
 #cssDesign {
   display: none;
 }
@@ -75,6 +75,7 @@ h5 {
 }
 
 #resultField {
+  display: none;
   height: 200px;
 }
 
@@ -101,3 +102,4 @@ h5 {
 #submit {
   display: none;
 }
+*/

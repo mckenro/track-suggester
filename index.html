@@ -18,112 +18,58 @@
       <form id="suggesterQuiz">
         <div id="userName">
           <div class="form-group">
-            <label for="userName"><h5>First, what's your name?</h5></label>
+            <label for="userName"><h4>First, what's your name?</h4></label>
             <input id="userName" class="form-control" type="text">
             <button class="btn btn-primary" id="userName">Next</button>
           </div>
         </div><!--close userName-->
 
         <div id="frontBack">
-          <h5>Which option best completes this sentence?</br> __________ is the most important aspect of a webpage/app.</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="frontBack" value="1">
-              Appearance and front end appearance...
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="frontBack" value="2">
-              Ability to process data and be interactive...
-            </label>
-          </div>
-          <button class="btn btn-primary" id="frontBackButton">Next</button>
-        </div><!--close frontBack-->
+          <h4>Which option best completes this sentence?</h4>
+          <p>__________ is the most important aspect of a webpage/app.</p>
+          <select class="form-control">
+            <option>Appearance and front end appearance...</option>
+            <option>Ability to process data and be interactive...</option>
+          </select>
+          <button type="button" class="btn btn-primary" id="frontBackButton">Next</button>
+        </div> <!--close frontBack-->
 
         <div id="appType">
-          <h5>Does the future belong to dedicated app or web apps?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="appType" value="1">
-              Dedicated apps
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="appType" value="2">
-              Web apps
-            </label>
-          </div>
+          <h4>Does the future belong to dedicated app or web apps?</h4>
+          <select class="form-control">
+            <option>Dedicated apps</option>
+            <option>Web apps</option>
+          </select>
           <button class="btn btn-primary" id="appTypeButton">Next</button>
         </div><!--close appType-->
 
         <div id="techType">
-          <h5>Do you prefer open source or proprietary technology?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="techType" value="1">
-              Open source
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="techType" value="2">
-              Proprietary
-            </label>
-          </div>
+          <h4>Do you prefer open source or proprietary technology?</h4>
+          <select class="form-control">
+            <option>Open source</option>
+            <option>Proprietary</option>
+          </select>
           <button class="btn btn-primary" id="techTypeButton">Next</button>
         </div><!--close techType-->
 
         <div id="coType">
-          <h5>Is your ideal job at a large "enterprise" company or a smaller stratup?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coType" value="1">
-              Enterprise
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coType" value="2">
-              Startup
-            </label>
-          </div>
+          <h4>Is your ideal job at a large "enterprise" company or a smaller stratup?</h4>
+          <select class="form-control">
+            <option>Enterprise</option>
+            <option>Startup</option>
+          </select>
           <button class="btn btn-primary" id="coTypeButton">Next</button>
         </div><!--close coType-->
 
         <div id="coSpecific">
-          <h5>What would be the best tech company to work for?</h5>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coSpecific" value="1">
-              Microsoft
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coSpecific" value="2">
-              Google
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coSpecific" value="3">
-              Amazon
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coSpecific" value="4">
-              Adobe
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="coSpecific" value="5">
-              Small tech company
-            </label>
-          </div>
+          <h4>What would be the best tech company to work for?</h4>
+          <select class="form-control">
+            <option>Microsoft</option>
+            <option>Google</option>
+            <option>Amazon</option>
+            <option>Adobe</option>
+            <option>Small tech company</option>
+          </select>
           <button class="btn btn-primary" id="coSpecificButton">Next</button>
         </div><!--close coSpecific-->
 

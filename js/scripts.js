@@ -22,18 +22,20 @@ $(document).ready(function() {
     $("#coType").hide();
   });
   $("button#coSpecificButton").click(function() {
-    $("#submit").show();
+    $("#resultField").show();
     $("#coSpecific").hide();
   });
 
+  var userNameInput = $("input#userName").val();
+  var frontBackInput = $("input#frontBack").val();
+  var appTypeInput = $("input:radio[name=appType]:checked").val();
+  var techTypeInput = $("input:radio[name=techType]:checked").val();
+  var coTypeInput = $("input:radio[name=coType]:checked").val();
+  var coSpecificInput = $("input:radio[name=coSpecific]:checked").val();
+
   $("form#suggesterQuiz").submit(function(event) {
     event.preventDefault();
-    var userNameInput = $("input#userName").val();
-    var frontBackInput = $("input:radio[name=frontBack]:checked").val();
-    var appTypeInput = $("input:radio[name=appType]:checked").val();
-    var techTypeInput = $("input:radio[name=techType]:checked").val();
-    var coTypeInput = $("input:radio[name=coType]:checked").val();
-    var coSpecificInput = $("input:radio[name=coSpecific]:checked").val();
+
 
     if ((frontBackInput === "1" && coSpecificInput === "4") || (frontBackInput === "1" && coSpecificInput === "5")) {
       $("#cssDesign").show();
