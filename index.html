@@ -11,7 +11,116 @@
     <div class="container">
       <h1>Epicodus Track Suggester Quiz</h1>
       <h3>Take the quiz below to receive a suggestion for which Epicodus coding track is best for you.</h3>
-      
+
+      <form id="suggesterQuiz">
+        <div id="userName">
+          <div class="form-group">
+            <label for="userName"><h5>So, what's your name?</h5></label>
+            <input id="userName" class="form-control" type="text">
+          </div>
+        </div><!--close userName-->
+
+        <div id="frontBack">
+          <h5>Which option best completes this sentence?</br> __________ is the most important aspect of a webpage/app.</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontBack1" value="1">
+              Appearance and front end appearance...
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="frontBack2" value="2">
+              Ability to process data and be interactive...
+            </label>
+          </div>
+        </div><!--close frontBack-->
+
+        <div id="appType">
+          <h5>Does the future belong to dedicated app or web apps?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="appType1" value="1">
+              Dedicated apps
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="appType2" value="2">
+              Web apps
+            </label>
+          </div>
+        </div><!--close appType-->
+
+        <div id="techType">
+          <h5>Do you prefer open source or proprietary technology?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="techType1" value="1">
+              Open source
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="techType2" value="2">
+              Proprietary
+            </label>
+          </div>
+        </div><!--close techType-->
+
+        <div id="frontBack">
+          <h5>Is your ideal job at a large "enterprise" company or a smaller stratup?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coType1" value="1">
+              Enterprise
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coType2" value="2">
+              Startup
+            </label>
+          </div>
+        </div><!--close frontBack-->
+
+        <div id="coSpecific">
+          <h5>What would be the best tech company to work for?</h5>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coSpecific1" value="1">
+              Microsoft
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coSpecific2" value="2">
+              Google
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coSpecific3" value="3">
+              Amazon
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coSpecific4" value="4">
+              Adobe
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="coSpecific5" value="5">
+              Small tech company
+            </label>
+          </div>
+        </div><!--close coSpecific-->
+
+        <button type="submit" class="btn btn-primary">Get Track!</button>
+      </form>
+
       <div id="resultField">
       </div>
     </div><!--close container-->
