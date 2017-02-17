@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+/*
   $("button#userName").click(function() {
     $("#frontBack").show();
     $("#userName").hide();
@@ -25,17 +25,16 @@ $(document).ready(function() {
     $("#resultField").show();
     $("#coSpecific").hide();
   });
-
-  var userNameInput = $("input#userName").val();
-  var frontBackInput = $("input#frontBack").val();
-  var appTypeInput = $("input:radio[name=appType]:checked").val();
-  var techTypeInput = $("input:radio[name=techType]:checked").val();
-  var coTypeInput = $("input:radio[name=coType]:checked").val();
-  var coSpecificInput = $("input:radio[name=coSpecific]:checked").val();
-
+*/
   $("form#suggesterQuiz").submit(function(event) {
     event.preventDefault();
 
+    var userNameInput = $("#userName").val();
+    var frontBackInput = $("select#frontBack").val();
+    var appTypeInput = $("#appType").val();
+    var techTypeInput = $("#techType").val();
+    var coTypeInput = $("#coType").val();
+    var coSpecificInput = $("#coSpecific").val();
 
     if ((frontBackInput === "1" && coSpecificInput === "4") || (frontBackInput === "1" && coSpecificInput === "5")) {
       $("#cssDesign").show();
@@ -48,7 +47,7 @@ $(document).ready(function() {
     }else {
       $("#moreInfo").show();
     }
-
+    alert(userNameInput, frontBackInput);
   });
 });
 

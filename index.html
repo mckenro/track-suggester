@@ -16,62 +16,56 @@
       <h3>Take the quiz below to receive a suggestion for which Epicodus coding track is best for you.</h3>
 
       <form id="suggesterQuiz">
-        <div id="userName">
+        <div id="userNameGroup">
           <div class="form-group">
             <label for="userName"><h4>First, what's your name?</h4></label>
             <input id="userName" class="form-control" type="text">
-            <button class="btn btn-primary" id="userName">Next</button>
           </div>
-        </div><!--close userName-->
+        </div><!--close userNameGroup-->
 
-        <div id="frontBack">
+        <div id="frontBackGroup">
           <h4>Which option best completes this sentence?</h4>
           <p>__________ is the most important aspect of a webpage/app.</p>
-          <select class="form-control">
+          <select id="frontBack" class="form-control">
             <option>Appearance and front end appearance...</option>
             <option>Ability to process data and be interactive...</option>
           </select>
-          <button type="button" class="btn btn-primary" id="frontBackButton">Next</button>
-        </div> <!--close frontBack-->
+        </div> <!--close frontBackGroup-->
 
-        <div id="appType">
+        <div id="appTypeGroup">
           <h4>Does the future belong to dedicated app or web apps?</h4>
-          <select class="form-control">
-            <option>Dedicated apps</option>
-            <option>Web apps</option>
+          <select id="appType" class="form-control">
+            <option value="1">Dedicated apps</option>
+            <option value="2">Web apps</option>
           </select>
-          <button class="btn btn-primary" id="appTypeButton">Next</button>
-        </div><!--close appType-->
+        </div><!--close appTypeGroup-->
 
-        <div id="techType">
+        <div id="techTypeGroup">
           <h4>Do you prefer open source or proprietary technology?</h4>
-          <select class="form-control">
-            <option>Open source</option>
-            <option>Proprietary</option>
+          <select id="techType" class="form-control">
+            <option value="1">Open source</option>
+            <option value="2">Proprietary</option>
           </select>
-          <button class="btn btn-primary" id="techTypeButton">Next</button>
         </div><!--close techType-->
 
         <div id="coType">
           <h4>Is your ideal job at a large "enterprise" company or a smaller stratup?</h4>
-          <select class="form-control">
-            <option>Enterprise</option>
-            <option>Startup</option>
+          <select id="coType" class="form-control">
+            <option value="1">Enterprise</option>
+            <option value="2">Startup</option>
           </select>
-          <button class="btn btn-primary" id="coTypeButton">Next</button>
-        </div><!--close coType-->
+        </div><!--close coTypeGroup-->
 
-        <div id="coSpecific">
+        <div id="coSpecificGroup">
           <h4>What would be the best tech company to work for?</h4>
-          <select class="form-control">
-            <option>Microsoft</option>
-            <option>Google</option>
-            <option>Amazon</option>
-            <option>Adobe</option>
-            <option>Small tech company</option>
+          <select id="coSpecific" class="form-control">
+            <option value="1">Microsoft</option>
+            <option value="2">Google</option>
+            <option value="3">Amazon</option>
+            <option value="4">Adobe</option>
+            <option value="5">Small tech company</option>
           </select>
-          <button class="btn btn-primary" id="coSpecificButton">Next</button>
-        </div><!--close coSpecific-->
+        </div><!--close coSpecificGroup-->
 
         <div id="submit">
           <button type="submit" class="btn btn-primary">Get Track!</button>

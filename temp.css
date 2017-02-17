@@ -1,0 +1,105 @@
+body {
+  background: #00b3b4;
+  color: #e5f8ff;
+}
+
+h1 {
+  color:#7AFEFF;
+}
+
+h3 {
+  margin-bottom: 60px;
+}
+
+.btn-primary {
+  margin-top: 14px;
+  background-color: #fa59ff;
+  border-color: #e549ed;
+}
+
+.btn-primary:hover {
+  background-color: #c512cc;
+}
+
+.btn-primary:active {
+  background-color: #c512cc;
+}
+
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+form {
+  text-align: left;
+}
+
+.logo {
+  width: 180px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+h4 {
+  margin-top: 20px;
+}
+/*
+#cssDesign {
+  display: none;
+}
+
+#cSharp {
+  display: none;
+}
+
+#phpDrupal {
+  display: none;
+}
+
+#javaAndroid {
+  display: none;
+}
+
+#rubyRails {
+  display: none;
+}
+
+#moreInfo {
+  display: none;
+}
+
+#resultField {
+  display: none;
+  height: 200px;
+}
+
+#frontBack {
+  display: none;
+}
+
+#appType {
+  display: none;
+}
+
+#techType {
+  display: none;
+}
+
+#coType {
+  display: none;
+}
+
+#coSpecific {
+  display: none;
+}
+
+#submit {
+  display: none;
+}
+*/
