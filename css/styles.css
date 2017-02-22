@@ -47,9 +47,15 @@ form {
 }
 
 h4 {
+  font-size: 20px;
   margin-top: 20px;
 }
-/*
+
+form p {
+  font-size: 16px;
+  font-style: oblique;
+}
+
 #cssDesign {
   display: none;
 }
@@ -73,33 +79,8 @@ h4 {
 #moreInfo {
   display: none;
 }
-
+/*
 #resultField {
   display: none;
   height: 200px;
-}
-
-#frontBack {
-  display: none;
-}
-
-#appType {
-  display: none;
-}
-
-#techType {
-  display: none;
-}
-
-#coType {
-  display: none;
-}
-
-#coSpecific {
-  display: none;
-}
-
-#submit {
-  display: none;
-}
-*/
+}*/
