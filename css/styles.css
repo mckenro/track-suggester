@@ -13,6 +13,7 @@ h3 {
 
 .btn-primary {
   margin-top: 14px;
+  margin-bottom: 30px;
   background-color: #fa59ff;
   border-color: #e549ed;
 }
@@ -56,6 +57,19 @@ form p {
   font-style: oblique;
 }
 
+#resultField {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #008996;
+  border-radius: 20px;
+  width: 80%;
+  height: 200px;
+}
+
 #cssDesign {
   display: none;
 }
@@ -79,8 +93,3 @@ form p {
 #moreInfo {
   display: none;
 }
-/*
-#resultField {
-  display: none;
-  height: 200px;
-}*/
