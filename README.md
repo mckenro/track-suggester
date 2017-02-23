@@ -6,7 +6,7 @@
 
 ## Description
 
-_This project uses form fields to gather input from a user to pass to a jquery function that will return an recommendation to the user for which educational track to pursue at Epicodus. Project is available for review here: https://mckenro.github.io/portfolio/_
+_This project uses form fields to gather input from a user to pass to a jquery function that will return an recommendation to the user for which educational track to pursue at Epicodus. Project is available for review here: https://github.com/mckenro/track-suggester_
 
 ## Setup/Installation Requirements
 
@@ -23,13 +23,13 @@ _Please contact Rob McKenzie at mckenro@gmail.com with questions or concerns reg
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_Javascript_
-_JQuery_
-_Git_
-_Github_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _Javascript_
+* _JQuery_
+* _Git_
+* _Github_
 
 ### License
 
