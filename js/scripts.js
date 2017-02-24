@@ -18,7 +18,7 @@ $(document).ready(function() {
       $("#phpDrupal").hide();
       $("#rubyRails").hide();
       $("#moreInfo").hide();
-      $("#resultField").slideUp("slow");
+      $("#resultField").show();
       $("#cssDesign").show();
     }else if ((frontBackInput === "2" && appTypeInput === "2") || (frontBackInput === "2" && techTypeInput === "1") || (frontBackInput === "2" && coSpecificInput === "5")) {
       $("#suggesterQuiz").hide();
@@ -26,7 +26,7 @@ $(document).ready(function() {
       $("#phpDrupal").hide();
       $("#cssDesign").hide();
       $("#moreInfo").hide();
-      $("#resultField").slideUp("slow");
+      $("#resultField").show();
       $("#rubyRails").show();
     }else if ((frontBackInput === "2" && coSpecificInput === "1") || (frontBackInput === "2" && techTypeInput === "2") || (techTypeInput === "2" && coSpecificInput === "1")) {
       $("#suggesterQuiz").hide();
@@ -34,7 +34,7 @@ $(document).ready(function() {
       $("#phpDrupal").hide();
       $("#rubyRails").hide();
       $("#moreInfo").hide();
-      $("#resultField").slideUp("slow");
+      $("#resultField").show();
       $("#cSharp").show();
     }else if ((appTypeInput === "2" && techTypeInput === "1") || (appTypeInput === "2" && coSpecificInput === "5")) {
       $("#suggesterQuiz").hide();
@@ -42,7 +42,7 @@ $(document).ready(function() {
       $("#cssDesign").hide();
       $("#rubyRails").hide();
       $("#moreInfo").hide();
-      $("#resultField").slideUp("slow");
+      $("#resultField").show();
       $("#phpDrupal").show();
     }else {
       $("#suggesterQuiz").hide();
