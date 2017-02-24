@@ -18,8 +18,8 @@ $(document).ready(function() {
       $("#phpDrupal").hide();
       $("#rubyRails").hide();
       $("#moreInfo").hide();
-      $("#resultField").show();
       $("#cssDesign").show();
+      $("#resultField").show();
     }else if ((frontBackInput === "2" && appTypeInput === "2") || (frontBackInput === "2" && techTypeInput === "1") || (frontBackInput === "2" && coSpecificInput === "5")) {
       $("#suggesterQuiz").hide();
       $("#cSharp").hide();
